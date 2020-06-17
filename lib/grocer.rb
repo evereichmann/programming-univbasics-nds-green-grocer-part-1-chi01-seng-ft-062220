@@ -1,4 +1,4 @@
-#require 'pry'
+require 'pry'
 def find_item_by_name_in_collection(name, collection)
   count = 0 
   collection.each do |item|
@@ -21,7 +21,11 @@ end
 #end
 
 def consolidate_cart(cart)
-  new_cart = 
+  new_cart = Array.new
+  count = 0 
+  cart.each do |item|
+  binding.pry
+  end  
 end
 
 #def consolidate_cart(cart)
