@@ -4,10 +4,11 @@ def find_item_by_name_in_collection(name, collection)
   collection.each do |item|
     while item[:item] == name
       return item
-      
-    end
+      count += 1
   end
+  nil
 end
+
 #def find_item_by_name_in_collection(name, collection)
 #  counter = 0 
 #  while counter < collection.length do
