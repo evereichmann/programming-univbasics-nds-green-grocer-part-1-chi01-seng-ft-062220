@@ -1,10 +1,10 @@
 require 'pry'
 def find_item_by_name_in_collection(name, collection)
   count = 0 
-  collection.each do |item|
-    while collection[item] == name do
-      
-  binding.pry
+  collection.each do |key|
+    while collection[key][:item] == name do
+      return collection[:item]
+  #binding.pry
     end
     count += 1
   end
