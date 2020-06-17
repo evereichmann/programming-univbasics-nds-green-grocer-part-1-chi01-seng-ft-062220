@@ -3,8 +3,8 @@ def find_item_by_name_in_collection(name, collection)
   count = 0 
   collection.each do |item|
     while item[:item] == name
-      return item[:item]
-  #binding.pry
+      return item
+      
     end
   end
 end
