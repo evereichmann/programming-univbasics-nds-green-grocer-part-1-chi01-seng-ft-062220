@@ -2,7 +2,7 @@ require 'pry'
 def find_item_by_name_in_collection(name, collection)
   count = 0 
   collection.each do |key|
-    while collection[key][:item] == name do
+    while collection[key][:item] = name 
       return collection[:item]
   #binding.pry
     end
