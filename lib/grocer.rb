@@ -24,7 +24,7 @@ def consolidate_cart(cart)
   new_cart = Array.new
   count = 0 
   cart.each do |key|
-    new_item = 
+    new_item = find_item_by_name_in_collection(item[:item], new_cart)
     
   binding.pry
   end  
