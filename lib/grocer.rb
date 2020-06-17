@@ -24,6 +24,8 @@ def consolidate_cart(cart)
   new_cart = Array.new
   count = 0 
   cart.each do |key|
+    new_item = 
+    
   binding.pry
   end  
 end
